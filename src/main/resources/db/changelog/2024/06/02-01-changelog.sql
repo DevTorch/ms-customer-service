@@ -23,8 +23,8 @@ ALTER TABLE customers
 INSERT INTO customers
 (id, dtype, account_id, nickname, full_name, registration_date)
 VALUES
-(100, 'Customer', 100, 'John', 'John Smith', '2024-06-02 00:00:00.000000'),
-(101, 'Customer', 101, 'Jane', 'Jane Doe', '2024-06-03 00:00:00.000000'),
-(102, 'Customer', 102, 'John123', 'John Doe', '2024-06-04 00:00:00.000000'),
-(103, 'Customer', 103, 'Alex', 'Alex Burton', '2024-06-05 00:00:00.000000'),
-(104, 'Customer', 104, 'DD', 'Donald Dull', '2024-06-06 00:00:00.000000');
+(100, 'customer', 100, 'John', 'John Smith', '2024-06-02 00:00:00.000000'),
+(101, 'customer', 101, 'Jane', 'Jane Doe', '2024-06-03 00:00:00.000000'),
+(102, 'customer', 102, 'John123', 'John Doe', '2024-06-04 00:00:00.000000'),
+(103, 'customer', 103, 'Alex', 'Alex Burton', '2024-06-05 00:00:00.000000'),
+(104, 'customer', 104, 'DD', 'Donald Dull', '2024-06-06 00:00:00.000000');

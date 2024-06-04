@@ -25,6 +25,13 @@ spring:
     enabled: false
     change-log: db/changelog/db.changelog-master.yaml
 
+  cloud:
+    openfeign:
+      client:
+        config:
+          auth-service:
+            url: http://localhost:8765
+
 springdoc:
   api-docs:
     path: /v3/api-docs
